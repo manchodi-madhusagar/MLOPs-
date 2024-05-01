@@ -1,10 +1,10 @@
 import os
-import logging  # Importing the logging module
+import logging  
 from pathlib import Path
 
 list_of_files=[
     ".github/workflow/.gitkeep",
-    "src/__init__.py",  # Corrected the typo in this line
+    "src/__init__.py", 
     "src/components/__init__.py",
     "src/components/data_ingestion.py",
     "src/components/data_transformation.py",
@@ -13,6 +13,7 @@ list_of_files=[
     "src/pipeline/__init__.py",
     "src/pipeline/training_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
+    "src/utils/__init__.py",
     "src/utils/utils.py",
     "src/logger/logging.py",
     "src/exception/exception.py",
